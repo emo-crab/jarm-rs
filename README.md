@@ -1,4 +1,4 @@
-# jarm_rs
+# jarm-rs
 
 - [jarm](https://github.com/salesforce/jarm)  implemented by rust
 
@@ -7,9 +7,9 @@
 ## using
 
 ```shell
-➜ ~ ./jarm_rs -t blog.kali-team.cn
+➜ ~ ./jarm-rs -t blog.kali-team.cn
 27d3ed3ed0003ed1dc42d43d00041d6183ff1bfae51ebd88d70384363d525c
-➜ ~ ./jarm_rs -t blog.kali-team.cn:443
+➜ ~ ./jarm-rs -t blog.kali-team.cn:443
 27d3ed3ed0003ed1dc42d43d00041d6183ff1bfae51ebd88d70384363d525c
 
 ```
@@ -19,7 +19,7 @@
 - put in Cargo.toml:
 
 ```toml
-jarm = { git = "https://github.com/emo-cat/jarm_rs" }
+jarm = { git = "https://github.com/emo-cat/jarm-rs" }
 ```
 
 - using
