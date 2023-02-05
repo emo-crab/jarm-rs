@@ -13,7 +13,7 @@ mod tests {
     #[test]
     fn it_works() {
         let s = Scanner::new("www.salesforce.com".to_string(), 443).unwrap();
-        assert_eq!(s.fingerprint(), "4");
+        assert_eq!(s.fingerprint(), "2ad2ad0002ad2ad00042d42d00000069d641f34fe76acdc05c40262f8815e5");
     }
 }
 
